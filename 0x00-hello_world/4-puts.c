@@ -1,4 +1,5 @@
-#include <stdio.h> 
+#include <stdio.h>
+
 /**
  * main - using puts to print
  * programming is like building a multilingual puzzle
@@ -7,7 +8,7 @@
  * Programming is like building a multilingual puzzle
  * with the puts function
  *
- * return: 0
+ * Return: 0
  */
  int main(void)
 {
