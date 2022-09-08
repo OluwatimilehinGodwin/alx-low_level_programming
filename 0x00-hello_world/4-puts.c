@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - using puts to print
- * programming is like building a multilingual puzzle
+ * main - Using puts to print
+ * 
  * Description: my first C code aimed at printing 
  * "Programming is like building a multilingual puzzle
  * with the puts function
