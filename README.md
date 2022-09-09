@@ -1,1 +1,1 @@
-this is for C programming language
+c operators
