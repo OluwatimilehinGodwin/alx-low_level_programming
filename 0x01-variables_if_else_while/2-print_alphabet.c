@@ -6,11 +6,11 @@
  * Description: program to print the alphabeth in small letters
  * Return: 0
  */
-int main(void)
+int main()
 {
-char m = "a"
+char m = 'a';
 
-while (m <= "z")
+while (m <= 'z')
 {
 	putchar(m);
 	m++;
