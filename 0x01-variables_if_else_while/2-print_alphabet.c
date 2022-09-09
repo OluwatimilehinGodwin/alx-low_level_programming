@@ -6,7 +6,7 @@
  * Description: program to print the alphabeth in small letters
  * Return: 0
  */
-int main()
+int main(void)
 {
 char m = 'a';
 
@@ -14,6 +14,8 @@ while (m <= 'z')
 {
 	putchar(m);
 	m++;
+
 }
+putchar("\n");
 return (0);
 }
