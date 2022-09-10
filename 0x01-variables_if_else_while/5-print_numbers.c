@@ -12,8 +12,9 @@ int t = 0;
 
 while (t < 10)
 {
-	printf("%i\n", t);
+	printf("%i", t);
 	t++;
 }
+printf('\n');
 return (0);
 }
