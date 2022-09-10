@@ -15,6 +15,6 @@ while (t < 10)
 	printf("%i", t);
 	t++;
 }
-printf('\n');
+putchar('\n');
 return (0);
 }
