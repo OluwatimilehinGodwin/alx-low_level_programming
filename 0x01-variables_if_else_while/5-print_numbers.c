@@ -8,9 +8,9 @@
  */
 int main(void)
 {
-int t = 0;
+char t = '0'
 
-while (t < 10)
+while (t < '10')
 {
 	putchar(t);
 	t++;
