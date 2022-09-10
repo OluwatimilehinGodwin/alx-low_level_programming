@@ -2,6 +2,7 @@
 
 /**
  * main - entry point
+ *
  * Description: program to print the alphabeth in small letters
  * Return: 0
  */
@@ -15,5 +16,5 @@ while (t < 10)
 	t++;
 }
 putchar('\n');
-return (0)
+return (0);
 }
