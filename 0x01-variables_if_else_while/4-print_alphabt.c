@@ -19,3 +19,4 @@ while (t <= 'z')
 }
 putchar("\n");
 return (0);
+}
