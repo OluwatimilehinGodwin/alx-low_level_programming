@@ -11,13 +11,15 @@ int main(void)
 {
 int h = '0';
 
-while (h < '10')
+while (h <= '9')
 {
 	putchar(h);
 	if (h != '9')
-		rutchar(',');
+	{
+		putchar(',');
 		putchar(' ');
 		h++;
+	}
 }
 putchar('\n');
 return (0);
