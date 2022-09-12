@@ -18,8 +18,8 @@ while (h <= '9')
 	{
 		putchar(',');
 		putchar(' ');
-		h++;
 	}
+	h++;
 }
 putchar('\n');
 return (0);
