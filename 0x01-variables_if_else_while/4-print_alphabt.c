@@ -6,7 +6,7 @@
  * Desceiption: Print all the letters except q and e
  * Return: 0
  */
-int main(0)
+int main(void)
 {
 char t = 'a';
 
