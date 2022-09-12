@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-char y = '0';
+int y = '0';
 char w = 'a';
 
 while (y <= '9')
@@ -22,6 +22,6 @@ while (w <= 'f')
 	putchar(w);
 	w++;
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
