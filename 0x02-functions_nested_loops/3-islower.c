@@ -2,6 +2,7 @@
 
 /**
  * _islower - entry point
+ * @c: its the entry variable for alphabeth to be scanned
  *
  * Description: a function that checks for lowercase character
  * Return: 0
