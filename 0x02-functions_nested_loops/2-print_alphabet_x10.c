@@ -23,4 +23,4 @@ while (a <= '9')
 	a++;
 	_putchar('\n');
 }
-}	
+j}	
