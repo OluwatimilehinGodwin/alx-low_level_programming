@@ -20,6 +20,6 @@ while (a <= '9')
 		_putchar(b);
 		b++;
 	}
-}
-_putchar('\n');
+	a++;
+	_putchar('\n');
 }	
