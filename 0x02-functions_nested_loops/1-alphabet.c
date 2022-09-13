@@ -7,7 +7,7 @@
  * the alphabet, in lowercase,
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
 char ty = 'a';
 
@@ -17,5 +17,5 @@ while (ty <= 'z')
 	ty++;
 }
 _putchar('\n');
-return (0);
+return;
 }
