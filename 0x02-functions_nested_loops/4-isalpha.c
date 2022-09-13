@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - entry point
+ * @c: it serve as entry variable for what to be scanned
  *
  * Description: a function that checks for
  * alphabetic character
