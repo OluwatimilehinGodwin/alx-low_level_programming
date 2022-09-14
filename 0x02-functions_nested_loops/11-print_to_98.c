@@ -15,17 +15,21 @@ if (n < 98)
 {
 	while (n < 98)
 	{
-		printf("%i,  ", n);
+		printf("%i, ", n);
 		n++;
+	}
+}
+else if
+{
+	while (n > 98)
+	{
+		printf("%i, ", n);
+		n--;
 	}
 }
 else
 {
-	while (n > 98)
-	{
-		printf("%i,  ", n);
-		n--;
-	}
+	_putchar(n);
 }
 _putchar('\n');
 }
