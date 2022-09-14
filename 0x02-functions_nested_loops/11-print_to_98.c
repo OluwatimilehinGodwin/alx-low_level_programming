@@ -19,7 +19,7 @@ if (n < 98)
 		n++;
 	}
 }
-else if
+else if (n > 98)
 {
 	while (n > 98)
 	{
