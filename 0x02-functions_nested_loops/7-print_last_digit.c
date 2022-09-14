@@ -7,9 +7,8 @@
  * of a number
  * Return: 0
  */
-int print_last_digit(int)
+int print_last_digit(int d)
 {
-int d;
 int last_digits = d % 10;
 
 	_putchar(last_digits);
