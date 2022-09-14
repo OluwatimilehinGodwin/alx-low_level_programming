@@ -7,12 +7,9 @@
  *
  * Description: function that adds two integers
  * and returns the result
- * Return: 0
+ * Return: addition result
  */
 int add(int a, int b);
 {
-int result;
-
-result = (a + b);
-return (result);
+	return (result);
 }
