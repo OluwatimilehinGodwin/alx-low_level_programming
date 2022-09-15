@@ -9,3 +9,4 @@ int print_last_digit(int);
 int _abs(int);
 int add(int, int);
 void print_to_98(int n);
+int _isupper(int c);
