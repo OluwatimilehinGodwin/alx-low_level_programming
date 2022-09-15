@@ -10,6 +10,9 @@
  */
 void print_line(int n)
 {
+char j;
+j = "\\n";
+
 if (n > '0')
 {
 	while (n > '0')
@@ -17,11 +20,10 @@ if (n > '0')
 		_putchar('_');
 		n--;
 	}
-	_putchar('\\n');
+	_putchar(j);
 }
 else
 {
-	_putchar('\\n');
+	_putchar(j);
 }
-_putchar('\n');
 }
