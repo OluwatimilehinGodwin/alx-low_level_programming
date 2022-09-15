@@ -3,7 +3,7 @@
 /**
  * print_most_numbers - entry point
  *
- * Description: print the 0 to 9 number
+ * Description: print the number
  * exempting 2 and 4
  * Return: 0
  */
