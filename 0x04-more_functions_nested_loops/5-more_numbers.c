@@ -23,4 +23,6 @@ while (i <= '9')
 	i++;
 	_putchar('\n');
 }
+_putchar('\n');
 }
+
