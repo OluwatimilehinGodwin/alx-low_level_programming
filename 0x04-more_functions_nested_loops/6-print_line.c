@@ -6,7 +6,7 @@
  *
  * Description: function that draws a straight
  * line in the terminal.
- * Return: 0
+ * Return: nothing
  */
 void print_line(int n)
 {
@@ -23,4 +23,5 @@ else
 {
 	_putchar('\\n');
 }
+_putchar('\n');
 }
