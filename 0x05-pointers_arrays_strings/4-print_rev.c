@@ -19,7 +19,7 @@ while (*(s + count) != '\0')
 while (count >= 0)
 {
 	_putchar(*(s + count));
-	count--;
+	--count;
 }
 _putchar('\n');
 }
