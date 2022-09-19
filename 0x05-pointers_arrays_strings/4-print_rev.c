@@ -20,6 +20,8 @@ count = count - 1;
 while (count > 0)
 {
 	_putchar(*(s + (count)));
+	--count;
 }
+_putchar(*s[0]);
 _putchar('\n');
 }
