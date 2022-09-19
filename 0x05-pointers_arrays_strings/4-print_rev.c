@@ -18,8 +18,8 @@ while (*(s + count) != '\0')
 }
 while (count >= 0)
 {
-	_putchar(*(s + (count - 1)));
-	count--;
+	--count;
+	_putchar(*(s + (count)));
 }
 _putchar('\n');
 }
