@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98
+ * reset_to_98 - entry point
  * @n: active variable
  *
  * Description: function that takes a pointer
