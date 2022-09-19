@@ -14,8 +14,8 @@ int count = 0;
 
 while (*(str + count) != '\0')
 {
-	_putchar(count);
-	count++;
+	_putchar(*(s + count));
+	count = count + 2;
 }
 _putchar('\n');
 }
