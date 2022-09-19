@@ -16,10 +16,10 @@ while (*(s + count) != '\0')
 {
 	count++;
 }
+count = count - 1;
 while (count >= 0)
 {
 	--count;
 	_putchar(*(s + (count)));
 }
-_putchar('\n');
 }
