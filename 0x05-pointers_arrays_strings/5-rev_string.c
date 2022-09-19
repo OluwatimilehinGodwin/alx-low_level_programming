@@ -23,6 +23,7 @@ while (*(s + count) != '\0')
 	count++;
 }
 count = count - 1;
+
 if (count > 0)
 {
 	while (count > 0)
