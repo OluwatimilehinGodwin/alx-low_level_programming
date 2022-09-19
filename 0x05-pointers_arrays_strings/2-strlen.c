@@ -10,7 +10,7 @@
 int _strlen(char *s)
 {
 char p = s[0];
-char q = s[-1];
+char q = '\0';
 int count = '0';
 
 while (p < q)
