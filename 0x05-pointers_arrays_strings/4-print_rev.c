@@ -24,11 +24,10 @@ if (count > 0)
 	_putchar(*(s + (count)));
 	--count;
 	}
-_putchar(*s);
+	_putchar(*s);
+	_putchar('\n');
 }
 else
 {
-	break;
-}
-_putchar('\n');
+	_putchar('\n');
 }
