@@ -18,7 +18,7 @@ while (*(s + count) != '\0')
 }
 count = count - 1;
 
-while (count--);
+while (count > 0);
 {
 	_putchar(*(s + (count)));
 }
