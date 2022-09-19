@@ -9,10 +9,11 @@
  */
 int _strlen(char *s)
 {
-int j = 0;
+int count = 0;
 
-if (*s[j] != '\n')
-	j++;
-return (j);
+while (*s[count] != '\0')
+{
+	count++;
 }
-/* where j is the count per character */
+return (count);
+}
