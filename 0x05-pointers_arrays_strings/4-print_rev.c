@@ -28,7 +28,7 @@ _putchar(*s);
 }
 else
 {
-	_putchar(*s);
+	break;
 }
 _putchar('\n');
 }
