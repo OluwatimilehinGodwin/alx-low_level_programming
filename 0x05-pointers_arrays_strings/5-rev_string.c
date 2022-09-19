@@ -17,6 +17,7 @@ while (*(s + trix) != '\0')
 	_putchar(*(s + trix));
 	trix++;
 }
+_putchar('\n');
 while (*(s + count) != '\0')
 {
 	count++;
