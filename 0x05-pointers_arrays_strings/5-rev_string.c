@@ -33,8 +33,4 @@ if (count > 0)
 	_putchar(*s);
 	_putchar('\n');
 }
-else
-{
-	_putchar('\n');
-}
 }
