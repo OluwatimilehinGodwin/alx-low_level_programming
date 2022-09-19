@@ -9,7 +9,13 @@
  */
 int _strlen(char *s)
 {
-int x = (*s / 8);
+char p = s[0];
+char q = s[-1];
+int count = '0';
 
-return (x);
+while (p < q)
+{
+	count++;
+}
+return (count);
 }
