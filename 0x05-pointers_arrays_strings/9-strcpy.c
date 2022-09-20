@@ -17,7 +17,7 @@ int w = 0;
 
 if (dest == NULL)
 {
-	return NULL;
+	return (NULL);
 }
 while (*(src + w)  != '\0')
 {
