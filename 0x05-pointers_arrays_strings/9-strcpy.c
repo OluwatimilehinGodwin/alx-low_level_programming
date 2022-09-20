@@ -17,13 +17,13 @@ if (dest == NULL)
 {
 	return NULL;
 }
-char *rtn = dest;
-while (*src != '\0')
+int w = 0;
+
+while (*(src + w)  != '\0')
 {
-	*dest = *src;
-	dest++;
-	src++;
+	*(dest + w) = *(src + w);
+	w++;
 }
-*dest = ('\0');
-return (*rtn);
+*(dest + w) = ('\0');
+return (dest);
 }
