@@ -14,12 +14,11 @@ int count = 0;
 
 while (*(str + count) != '\0')
 {
-	_putchar(*(str + count));
-	if (*(str + count) = "\\")
+	if (*(str + count) != "\\")
 	{
-		break;
+		_putchar(*(str + count));
+		count = count + 2;
 	}
-	count = count + 2;
 }
 _putchar('\n');
 }
