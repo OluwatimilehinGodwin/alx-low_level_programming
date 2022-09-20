@@ -29,7 +29,7 @@ if (i == 0)
 }
 else
 {
-	n = ((count -1) / 2);
+	n = (((count - 1) / 2) + 1);
 	while (*(str + n) != '\0')
 	{
 		_putchar(*(str + n));
