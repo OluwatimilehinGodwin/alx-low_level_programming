@@ -9,14 +9,12 @@
  */
 void rev_string(char *s)
 {
-int trix = 0;
+int tx = 0;
 
-while (*(s + trix) != '\0')
+while (*(s + tx) != '\0')
 {
-	_putchar(*(s + trix));
+	_putchar(*(s + tx));
 	trix++;
 }
 _putchar('\n');
-
 }
-
