@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _strcpy - entry point
@@ -20,9 +21,9 @@ if (dest == NULL)
 }
 while (*src != '\0')
 {
-	*dest[w] = *src[w];
+	dest[w] = src[w];
 	w++;
 }
-*dest[w] = ('\0');
-return (*dest);
+dest[w] = ('\0');
+return (dest);
 }
