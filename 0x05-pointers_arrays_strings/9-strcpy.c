@@ -13,17 +13,17 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-int w = 0;
-
 if (dest == NULL)
 {
-	return (NULL);
+	return NULL;
 }
+char *rtn = dest;
 while (*src != '\0')
 {
-	dest[w] = src[w];
-	w++;
+	*dest = *src;
+	dest++;
+	src++;
 }
-dest[w] = ('\0');
-return (dest);
+*dest = ('\0');
+return (*rtn);
 }
