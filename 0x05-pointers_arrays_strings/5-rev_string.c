@@ -9,8 +9,8 @@
  */
 void rev_string(char *s)
 {
-int count = 0;
 int count2 = 0;
+int count = 0;
 
 while (*(s + count2) != '\0')
 {
@@ -22,7 +22,6 @@ _putchar('\n');
 while (*(s + count) != '\0')
 {
 	count++;
-	/* get the count or numbers of character in string */
 }
 count = count - 1;
 while (count > 0)
