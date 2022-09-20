@@ -14,7 +14,7 @@ int tx = 0;
 while (*(s + tx) != '\0')
 {
 	_putchar(*(s + tx));
-	trix++;
+	tx++;
 }
 _putchar('\n');
 }
