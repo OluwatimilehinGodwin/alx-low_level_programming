@@ -18,20 +18,6 @@ while (*(s + trix) != '\0')
 	trix++;
 }
 _putchar('\n');
-while (*(s + count) != '\0')
-{
-	count++;
-}
-count = count - 1;
 
-if (count > 0)
-{
-	while (count > 0)
-	{
-		_putchar(*(s + (count)));
-		--count;
-	}
-	_putchar(*s);
-	_putchar('\n');
 }
-}
+
