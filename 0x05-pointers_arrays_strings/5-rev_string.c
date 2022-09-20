@@ -16,11 +16,13 @@ while (*(s + count2) != '\0')
 {
 	_putchar(*(s + count2));
 	count2++;
+	/* to successfully print the string passed */
 }
 _putchar('\n');
 while (*(s + count) != '\0')
 {
 	count++;
+	/* get the count or numbers of character in string */
 }
 count = count - 1;
 while (count > 0)
