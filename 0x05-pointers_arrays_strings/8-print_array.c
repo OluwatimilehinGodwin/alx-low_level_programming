@@ -13,7 +13,6 @@
 void print_array(int *a, int n)
 {
 int x = 0;
-int p;
 
 while (x < n)
 {
