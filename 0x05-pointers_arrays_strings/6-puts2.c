@@ -16,6 +16,10 @@ while (*(str + count) != '\0')
 {
 	_putchar(*(str + count));
 	count = count + 2;
+	if (*(str + count) == '\\0')
+	{
+		break;
+	}
 }
 _putchar('\n');
 }
