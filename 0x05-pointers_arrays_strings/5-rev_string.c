@@ -9,7 +9,6 @@
  */
 void rev_string(char *s)
 {
-int count = 0;
 int trix = 0;
 
 while (*(s + trix) != '\0')
