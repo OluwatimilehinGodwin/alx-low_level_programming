@@ -17,6 +17,7 @@ while (*(s + count2) != '\0')
 	_putchar(*(s + count2));
 	count2++;
 }
+_putchar('\n');
 while (*(s + count) != '\0')
 {
 	count++;
