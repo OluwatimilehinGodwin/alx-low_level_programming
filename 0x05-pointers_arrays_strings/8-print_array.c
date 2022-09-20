@@ -13,11 +13,14 @@
 void print_array(int *a, int n)
 {
 int x = 0;
+int p;
 
-while (x < n)
+while (x < (n - 1))
 {
 	printf("%d, ", a[x]);
 	x++;
 }
+p = (n - 1);
+_putchar(a[p]);
 _putchar('\n');
 }
