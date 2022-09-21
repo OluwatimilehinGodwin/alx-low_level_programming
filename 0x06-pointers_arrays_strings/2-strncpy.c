@@ -9,7 +9,7 @@
  * Description: function that copies a string.
  * Return: 0
  */
-char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
 {
 int c = 0;
 
