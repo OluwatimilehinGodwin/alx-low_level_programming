@@ -22,4 +22,6 @@ while (c2 < n)
 {
 	dest[c] = src[c2];
 	c2++;
-
+}
+return (dest);
+}
