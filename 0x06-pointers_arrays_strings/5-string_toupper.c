@@ -19,6 +19,10 @@ while (str[i] != '\0')
 		str[i] = (str[i] - 32);
 		i++;
 	}
+	else
+	{
+		i++;
+	}
 }
 return (str);
 }
