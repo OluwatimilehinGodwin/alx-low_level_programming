@@ -15,7 +15,7 @@ int c = 0;
 
 while (c < n/2)
 {
-	bk = *(a + c);
+	bk = a[c];
 	a[c] = a[(n - 1 - c)];
 	a[(n - 1 - c)] = bk;
 	c++;
