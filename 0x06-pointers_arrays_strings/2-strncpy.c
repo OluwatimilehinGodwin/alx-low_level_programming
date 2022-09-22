@@ -18,6 +18,9 @@ while (c < n && *(src + c) != '\0')
 	*(dest + c) = *(src + c);
 	c++;
 }
-*(dest + c) = '\0';
+for (; c < n; c++)
+{
+	dest[c] = '\0';
+}
 return (dest);
 }
