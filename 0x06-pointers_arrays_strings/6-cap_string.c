@@ -11,7 +11,7 @@ char *cap_string(char *s)
 {
 int z = 0;
 int y;
-char q[] = " \t\n,.!;?\"{}[]";
+char q[ ] = " \t\n,.!;?\"{}[]";
 
 while (*(s + z) != '\0')
 {
@@ -25,7 +25,7 @@ while (*(s + z) != '\0')
 		{
 			for (y = 0; y < 13; y++)
 			{
-				if (*(q + y) == *(s + z -1))
+				if (*(q + y) == *(s + z - 1))
 				{
 					*(s + z) -= 32;
 				}
