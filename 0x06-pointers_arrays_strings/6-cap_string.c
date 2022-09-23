@@ -9,19 +9,30 @@
  */
 char *cap_string(char *s)
 {
-int c = 0;
+int z = 0;
+int y;
+char q[] = " \t\n,.!;?\"{}[]";
 
-while (s[c] != '\0')
+while (*(s + z) != '\0')
 {
-	if (s[c] >= 97 && s[c] <= 122)
+	if (*(s + z) >= 97 && *(s + z) <= 122)
 	{
-		s[c] -= 32;
-		c++;
+		if (z == 0)
+		{
+			*(s + z) -= 32;
+		}
+		else
+		{
+			for (y = 0; y < 13; y++)
+			{
+				if (*(q + y) == *(s + z -1))
+				{
+					*(s + z) -= 32;
+				}
+			}
+		}
 	}
-	else
-	{
-		c++;
-	}
+	z++;
 }
 return (s);
 }
