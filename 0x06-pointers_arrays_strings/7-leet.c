@@ -10,12 +10,12 @@
 char *leet(char *p)
 {
 int q, r;
-char l[] = "aAeEoOtTsS";
+char l[] = "aAeEoOtTlL";
 char m[] = "4433007711";
 
 for (q = 0; *(p + q) != '\0'; q++)
 {
-	for (r = 0; r < 10; r++)
+	for (r = 0; r <= 9; r++)
 	{
 		if (*(p + q) == l[r])
 		{
