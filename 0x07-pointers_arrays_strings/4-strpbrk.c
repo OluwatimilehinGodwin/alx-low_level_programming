@@ -20,8 +20,6 @@ for (p = 0; s[p]; p++)
 		{
 			break;
 		}
-		else
-			continue;
 	}
 	if (s[p] == accept[q])
 	{
