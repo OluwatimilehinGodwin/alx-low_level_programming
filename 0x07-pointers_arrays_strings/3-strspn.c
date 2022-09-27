@@ -21,7 +21,7 @@ for (p = 0; s[p]; p++)
 			break;
 		}
 	}
-	if (!accept[q])
+	if (! accept[q])
 	{
 		break;
 	}
