@@ -12,26 +12,18 @@
  */
 void print_diagsums(int *a, int size)
 {
-int i, l, c, d, j;
-int m = (size - 1);
+int i, j, p, l = 0, r = 0;
 
-for (i = 0; i < size; i++)
-{
+	for (i = 0; i < size; i++)
+	{
+		p = (i * size) + i;
+		l += *(a + p);
+
+	}
 	for (j = 0; j < size; j++)
 	{
-
-}
-while (m >= 0)
-{
-	for (l = 0; l < size; l++)
-	{
-		d += a[m][l]
-		break;
+		p = (j * size) + (size - 1 - j);
+		r += *(a + p);
 	}
-	m -= 1;
-}
-_putchar(c);
-_putchar(',');
-_putchar(z);
-_putchar(d);
+	printf("%i, %i\n", l, r);
 }
