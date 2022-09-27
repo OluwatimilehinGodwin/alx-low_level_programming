@@ -5,8 +5,8 @@
  * @s: active variable
  * @accept: second active variable
  *
- * Description: Write a function that gets the length of a prefix substring.
- * Return: 0
+ * Description: write a function that gets the length of a prefix substring.
+ * Return: number of bytes 
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -21,7 +21,7 @@ for (p = 0; s[p]; p++)
 			break;
 		}
 	}
-	if (! accept[q])
+	if (!accept[q])
 	{
 		break;
 	}
