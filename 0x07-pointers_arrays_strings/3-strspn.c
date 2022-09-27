@@ -5,7 +5,7 @@
  * @s: active variable
  * @accept: second active variable
  *
- * Descripton: Write a function that gets the length of a prefix substring.
+ * Description: Write a function that gets the length of a prefix substring.
  * Return: 0
  */
 unsigned int _strspn(char *s, char *accept)
@@ -22,7 +22,9 @@ for (p = 0; s[p]; p++)
 		}
 	}
 	if (! accept[q])
+	{
 		break;
+	}
 }
 return (p);
 }
