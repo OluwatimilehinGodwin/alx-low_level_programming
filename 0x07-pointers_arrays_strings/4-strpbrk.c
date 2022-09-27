@@ -14,7 +14,19 @@ int p, q;
 
 for (p = 0; s[p]; p++)
 {
-        for (q = 0; accept[q]; q++)
-        {
-                if (s[p] == accept[q])
-                {
+	for (q = 0; accept[q]; q++)
+	{
+		if (s[p] == accept[q])
+		{
+			break;
+		}
+		else
+			continue;
+	}
+	if (s[p] == accept[q])
+	{
+		return (s + p);
+	}
+}
+return (0);
+}
