@@ -10,29 +10,21 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned int i = 0;
 unsigned int p, q;
-unsigned int j = 0;
-unsigned int count = 0;
 
-while (*(s + i) != ',')
+
+for (p = 0; s[p]; p++)
 {
-	i++;
-}
-while (*(accept + j))
-{
-	j++;
-}
-for (p = 0; p < i; p++)
-{
-	for (q = 0; q < j; q++)
+	for (q = 0; accept[q]; q++)
 	{
-		if (*(s + p) == *(accept + q))
+		if (s[p] == accept[q])
 		{
-			unsigned int _strspn(char *s, char *accept);
-			count++;
+			break;
 		}
 	}
+	if (!accept[q])
+		break;
+	
 }
-return (count);
+return (p);
 }
