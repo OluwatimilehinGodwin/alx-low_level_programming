@@ -23,8 +23,7 @@ for (p = 0; s[p]; p++)
 		}
 	}
 	if (!accept[q])
-		break;
-	
+		break;	
 }
 return (p);
 }
