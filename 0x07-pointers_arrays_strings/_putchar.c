@@ -8,5 +8,3 @@ int _putchar(char tr)
 putchar(tr);
 return (0);
 }
-~
-~
