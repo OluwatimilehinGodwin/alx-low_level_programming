@@ -1,10 +1,10 @@
 #include "main.h"
 
 /*
- * is_prime_number - entry point
+ * is_prime_number
  * @n: active variable
  *
- * description: a function that finds out if
+ * Description: a function that finds out if
  * number is prime
  * Return: 0
  */
