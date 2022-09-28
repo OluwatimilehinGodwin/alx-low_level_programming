@@ -1,7 +1,7 @@
 #include "main.h"
 
-/*
- * is_prime_number
+/**
+ * is_prime_number - entry point
  * @n: active variable
  *
  * Description: a function that finds out if
