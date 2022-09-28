@@ -4,7 +4,8 @@
  * is_prime_number - entry point
  * @n: active variable
  *
- * : a function to check if number is prime number
+ * description: a function that finds out if
+ * number is prime
  * Return: 0
  */
 int is_prime_number(int n)
