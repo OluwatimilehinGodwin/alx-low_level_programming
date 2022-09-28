@@ -22,3 +22,4 @@ int x;
 	x = (n * factorial(n - 1));
 	return(x);
 }
+}
