@@ -11,12 +11,12 @@ int factorial(int n)
 {
 int x;
 
-if (n = 1)
+if (n == 1)
 {
 	return (1);
 }
 else
 {
-	return (n * factorial(int n);
+	return (n * factorial(n));
 }
 }
