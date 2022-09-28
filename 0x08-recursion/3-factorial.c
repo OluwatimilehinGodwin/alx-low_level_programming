@@ -20,6 +20,6 @@ if (n < 0)
 	return (-1);
 }
 x = (n * factorial(n - 1));
-return(x);
+return (x);
 }
 }
