@@ -11,15 +11,15 @@ int factorial(int n)
 {
 int x;
 {
-	if (n == 0)
-	{
-		    return (1);
-	}
-	if (n < 0)
-	{
-		    return (-1);
-	}
-	x = (n * factorial(n - 1));
-	return(x);
+if (n == 0)
+{
+	return (1);
+}
+if (n < 0)
+{
+	return (-1);
+}
+x = (n * factorial(n - 1));
+return(x);
 }
 }
