@@ -21,9 +21,21 @@ if (argc == 1)
 	printf("%s\n", r);
 	return (1);
 }
-for (i = 1; i < argc; i++)
+else
 {
-	mult *= atoi(argv[i]);
+	for (i = 1; i < argc; i++)
+	{
+		if (!atoi(argv[i]))
+		{
+			printf("%s\n", r);
+			return (1);
+		}
+		else
+		{
+			mult *= atoi(argv[i]);
+		}
+	}
+	printf("%d\n", mult);
 }
-printf("%d\n", mult);
+return (0);
 }
