@@ -12,5 +12,16 @@
  */
 int main(int argc, char** argv)
 {
-	printf("%d\n", (argc - 1));
+int i = 0;
+
+if (argc == 1)
+{
+	printf("%d\n", i);
+	return (0);
+}
+while (argv[i] != NULL)
+{
+	i++;
+}
+printf("%d\n", (i - 1));
 }
