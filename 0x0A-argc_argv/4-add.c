@@ -10,7 +10,7 @@
  * Description: function to add arguments
  * Return: 0
  */
-int main(int argc, char** argv)
+int main(int argc, char **argv)
 {
 int i;
 int sum = 0;
@@ -20,7 +20,7 @@ if (argc > 2)
 {
 	for (i = 0; i < argc; i++)
 	{
-		if(!atoi(argv[i]))
+		if (!atoi(argv[i]))
 		{
 			printf("%s\n", str);
 			return (1);
