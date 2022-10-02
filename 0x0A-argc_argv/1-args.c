@@ -10,7 +10,7 @@
  * Description: function to print number of argument aside name of file
  * Return: 0
  */
-int main(int argc, char** argv)
+int main(int argc, char **argv)
 {
 int i = 0;
 
