@@ -37,5 +37,9 @@ else
 	}
 	printf("%d\n", mult);
 }
-return (0);
+if (!atoi(argv[i]))
+{
+	printf("%s\n", r);
+	return (1);
+}
 }
