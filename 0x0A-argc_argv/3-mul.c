@@ -37,10 +37,5 @@ else
 	}
 	printf("%d\n", mult);
 }
-if (!atoi(argv[i]))
-{
-	printf("%s\n", r);
-	return (1);
-}
 return (0);
 }
