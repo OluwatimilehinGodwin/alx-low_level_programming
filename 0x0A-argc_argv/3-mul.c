@@ -12,28 +12,19 @@
  */
 int main(int argc, char **argv)
 {
-char r[] = "Error";
 int mult = 1;
 int i;
 
-if (argc == 1)
+if (argc < 3)
 {
-	printf("%s\n", r);
+	puts("Error");
 	return (1);
 }
 else
 {
 	for (i = 1; i < argc; i++)
 	{
-		if (!atoi(argv[i]))
-		{
-			printf("%s\n", r);
-			return (1);
-		}
-		else
-		{
-			mult *= atoi(argv[i]);
-		}
+		mult = mult * atoi(argv[i]);
 	}
 	printf("%d\n", mult);
 }
