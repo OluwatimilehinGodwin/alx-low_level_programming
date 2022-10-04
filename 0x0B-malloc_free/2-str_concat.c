@@ -41,7 +41,7 @@ for (i = 0; s1[i]; i++)
 {
 	cont[i] = s1[i];
 }
-for (j = 0; s2[j]; j++,i++)
+for (j = 0; s2[j]; j++, i++)
 {
 	cont[i] = s2[j];
 }
