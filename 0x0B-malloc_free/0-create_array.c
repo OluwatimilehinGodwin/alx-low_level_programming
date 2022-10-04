@@ -20,7 +20,7 @@ if (size == 0)
 	return (NULL);
 }
 point = malloc(size * sizeof(char));
-for (i = 0; i < size; i ++)
+for (i = 0; i < size; i++)
 {
 	point[i] = c;
 }
@@ -29,4 +29,5 @@ if (point != NULL)
 	return (point);
 }
 return (NULL);
+free(point);
 }
