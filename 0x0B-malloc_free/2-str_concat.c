@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 /**
  * str_concat - entry point
@@ -13,28 +12,39 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-int i, j, k, l;
+char *cont;
+int i, j;
+int c = 0;
 
-i = strlen(s1);
-j = strlen(s2);
-l = (i + j + 1);
+if (s1 == NULL)
+{
+	s1 = "";
+}
 if (s2 == NULL)
 {
-	return (s1);
+	s2 = "";
 }
-s1 = malloc(l * sizeof(char));
-if (s1 == NULL)
+for (i = 0; s1[i]; i++)
+{
+	c++;
+}
+for (j = 0; s2[j]; j++)
+{
+	c++;
+}
+cont = malloc((c + 1) * sizeof(char));
+if (cont == NULL)
 {
 	return (NULL);
 }
-i++;
-for (; i <= l; i++)
+for (i = 0; s1[i]; i++)
 {
-	for (k = 0; k < j; k++)
-	{
-		*(s1 + i) = *(s2 + k);
-		break;
-	}
+	cont[i] = s1[i];
 }
-return (s1);
+for (j = 0; s2[j]; j++,i++)
+{
+	cont[i] = s2[j];
+}
+return (cont);
+return (NULL);
 }
