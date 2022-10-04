@@ -24,6 +24,7 @@ while (*(str + i) != '\0')
 {
 	i++;
 }
+i += 1;
 new = malloc(i * sizeof(char));
 if (new == NULL)
 {
