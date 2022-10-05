@@ -32,10 +32,15 @@ for (i = 0; i < height; i++)
     /* 
      * this is used to allocate space for j number of width for each height
      */
-    if (ar[i] == NULL)
-    {
-        return (NULL);
-    }
+	if (ar[i] == NULL)
+	{
+		for (i = 0; i < height; i++)
+		{
+    	    	free(ar[i]);
+		}
+	free(ar);
+	return (NULL);
+	}
 }
 for (i = 0; i < height; i++)
 {
@@ -46,9 +51,4 @@ for (i = 0; i < height; i++)
     /* assignment of 0 to all array values */
 }
 return (ar);
-for (i = 0; i < height; i++)
-{
-	free(ar[i]);
-}
-free(ar);
 }
