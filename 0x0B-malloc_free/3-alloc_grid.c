@@ -29,14 +29,14 @@ if (ar == NULL)
 for (i = 0; i < height; i++)
 {
 	ar[i] = malloc(width * sizeof(int));
-    /* 
+    /*
      * this is used to allocate space for j number of width for each height
      */
 	if (ar[i] == NULL)
 	{
 		for (i = 0; i < height; i++)
 		{
-    			free(ar[i]);
+			free(ar[i]);
 		}
 		free(ar);
 		return (NULL);
