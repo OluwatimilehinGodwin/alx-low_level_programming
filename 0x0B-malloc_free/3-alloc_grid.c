@@ -12,13 +12,13 @@
 int **alloc_grid(int width, int height)
 {
 int **ar, i, j;
- 
+
 if (width == 0 || height == 0)
 {
     return (NULL);
 }
 ar = malloc(height * sizeof(int *));
-/* 
+/*
  * the above was used to allocate space for pointer to each row for
  * i.e using a pointer to the row
  */
