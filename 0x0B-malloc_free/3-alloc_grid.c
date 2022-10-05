@@ -46,4 +46,9 @@ for (i = 0; i < height; i++)
     /* assignment of 0 to all array values */
 }
 return (ar);
+for (i = 0; i < height; i++)
+{
+	free(ar[i]);
+}
+free(ar);
 }
