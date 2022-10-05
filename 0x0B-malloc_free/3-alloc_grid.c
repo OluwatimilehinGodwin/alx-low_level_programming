@@ -15,7 +15,7 @@ int **ar, i, j;
 
 if (width == 0 || height == 0)
 {
-    return (NULL);
+	return (NULL);
 }
 ar = malloc(height * sizeof(int *));
 /*
@@ -24,11 +24,11 @@ ar = malloc(height * sizeof(int *));
  */
 if (ar == NULL)
 {
-    return (NULL);
+	return (NULL);
 }
 for (i = 0; i < height; i++)
 {
-    ar[i] = malloc(width * sizeof(int));
+	ar[i] = malloc(width * sizeof(int));
     /* 
      * this is used to allocate space for j number of width for each height
      */
@@ -36,18 +36,18 @@ for (i = 0; i < height; i++)
 	{
 		for (i = 0; i < height; i++)
 		{
-    	    	free(ar[i]);
+    			free(ar[i]);
 		}
-	free(ar);
-	return (NULL);
+		free(ar);
+		return (NULL);
 	}
 }
 for (i = 0; i < height; i++)
 {
-    for (j = 0; j < width; j++)
-    {
-        ar[i][j] = 0;
-    }
+	for (j = 0; j < width; j++)
+	{
+		ar[i][j] = 0;
+	}
     /* assignment of 0 to all array values */
 }
 return (ar);
