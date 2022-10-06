@@ -28,13 +28,13 @@ for (i = 0; s1[i]; i++)
 }
 for (j = 0; s2[j]; j++)
 {
-	count++;
+	;
 }
-count++;
 if (n > j)
 {
 	n = j;
 }
+count += (n + 1);
 array = malloc(sizeof(char) * count);
 if (array == NULL)
 {
