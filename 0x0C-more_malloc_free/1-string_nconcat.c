@@ -48,6 +48,6 @@ for (q = 0; q < n; q++)
 {
 	array[p + q] = s2[q];
 }
-array[(p + n)] = '\0';
+array[(count)] = '\0';
 return (array);
 }
