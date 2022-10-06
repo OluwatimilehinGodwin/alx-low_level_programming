@@ -10,16 +10,12 @@
  */
 void *malloc_checked(unsigned int b)
 {
-<<<<<<< HEAD
-void *pointer;
-=======
 void *po;
->>>>>>> cb4a4a05823cf277ed3518e0bcef5f28dc63867b
 
 po = malloc(b);
 if (po == NULL)
 {
-exit(98);
+	exit(98);
 }
 return (po);
 }
