@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - entryb point
+ * malloc_checked - entry point
  * @b: numberg of byte to be allocated
  *
  * Description: a functionn to allocate memory using malloc
@@ -10,12 +10,16 @@
  */
 void *malloc_checked(unsigned int b)
 {
+<<<<<<< HEAD
 void *pointer;
+=======
+void *po;
+>>>>>>> cb4a4a05823cf277ed3518e0bcef5f28dc63867b
 
-pointer = malloc(b);
-if (pointer == NULL)
+po = malloc(b);
+if (po == NULL)
 {
-	exit (98);
+exit(98);
 }
-return (pointer);
+return (po);
 }
