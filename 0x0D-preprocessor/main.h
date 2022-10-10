@@ -6,5 +6,6 @@ int _putchar(char tr);
 #include "1-pi.h"
 #include <stdlib.h>
 #include "3-function_like_macro.h"
+#include "4-sum.h"
 
 #endif
