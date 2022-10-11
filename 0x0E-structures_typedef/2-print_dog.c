@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "dog.h"
+#include <stdlib.h>
 
 /**
  * print_dog - entry point
@@ -25,7 +26,7 @@ if (d != NULL)
 	}
 	else
 	{
-		printf("Age: %f\n", d->age);
+		printf("Age: %.6f\n", d->age);
 	}
 	if (d->owner == NULL)
 	{
