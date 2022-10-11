@@ -3,7 +3,7 @@
 
 /**
  * free_dog - entry point
- * @d; pointer to structure
+ * @d: pointer to structure
  *
  * Return: nothing
  */
