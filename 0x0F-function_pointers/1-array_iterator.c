@@ -1,4 +1,5 @@
 #include "function_pointers.h"
+#include <stdlib.h>
 
 /**
  * array_iterator - entry point
@@ -14,7 +15,6 @@ int i;
 
 if (!action || !array)
 {
-	return;
 }
 for (i = 0; i < size; i++)
 {
