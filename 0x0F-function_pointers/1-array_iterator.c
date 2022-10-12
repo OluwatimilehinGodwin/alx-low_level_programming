@@ -19,5 +19,6 @@ if (!action || !array)
 for (i = 0; i < size; i++)
 {
 	action(array[i]);
+
 }
 }
