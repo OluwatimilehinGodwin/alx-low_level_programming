@@ -17,22 +17,14 @@ unsigned int i;
 
 va_start(print, n);
 
-if (!separator)
+for (i = 0; i < n; i++)
 {
-	for (i = 0; i < n; i++)
+	printf("%d", va_arg(print, int));
+	if (separator != NULL && i < (n - 1))
 	{
-		printf("%d", va_arg(print, int));
+		printf("%s", separator);
 	}
-	printf("\n");
-	va_end(print);
 }
-else
-{
-	for (i = 0; i < (n - 1); i++)
-	{
-		printf("%d%s", va_arg(print, int), separator);
-	}
-	printf("%d\n", va_arg(print, int));
-	va_end(print);
-}
+printf("\n");
+va_end(print);
 }
