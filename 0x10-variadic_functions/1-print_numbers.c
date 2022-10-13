@@ -17,23 +17,14 @@ va_list print;
 va_start(print, n);
 if (n == 0)
 	return;
-if (separator == NULL)
+for (i =0; i < n; i++)
 {
-	for (i = 0; i < n; i++)
-	{
-		printf("%d", va_arg(print, int));
-	}
-	printf("\n");
-	va_end(print);
-}
-else
-{
-	for (i = 0; i < (n - 1); i++)
-	{
-		printf("%d%s", va_arg(print, int), separator);
-	}
 	printf("%d", va_arg(print, int));
-	printf("\n");
-	va_end(print);
+	if (separator != NULL && i < (n - 1))
+	{
+		printf("%s", separator);
+	}
 }
+printf("\n");
+va_end(print);
 }
