@@ -16,7 +16,7 @@ va_list print;
 unsigned int i;
 
 va_start(print, n);
-:
+
 if (!separator)
 {
 	for (i = 0; i < n; i++)
