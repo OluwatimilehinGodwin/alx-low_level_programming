@@ -32,7 +32,8 @@ else
 	{
 		printf("%d%s", va_arg(print, int), separator);
 	}
-	printf("%d\n", va_arg(print, int));
+	printf("%d", va_arg(print, int));
+	printf("\n");
 	va_end(print);
 }
 }
