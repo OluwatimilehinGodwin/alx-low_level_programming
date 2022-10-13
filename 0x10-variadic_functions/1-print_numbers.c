@@ -6,16 +6,17 @@
  * print_numbers - entry point
  * @separator: number separators
  * @n: number of list arguments
+ * @...: a variable of numbers to be printed
  *
  * Return: nothing
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
+va_list print;
 unsigned int i;
 
-va_list print;
 va_start(print, n);
-
+:
 if (!separator)
 {
 	for (i = 0; i < n; i++)
