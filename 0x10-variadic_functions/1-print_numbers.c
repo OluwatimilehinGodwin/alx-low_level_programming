@@ -17,7 +17,7 @@ unsigned int i;
 va_list print;
 va_start(print, n);
 
-if (separator == NULL)
+if (!separator)
 {
 	for (i = 0; i < n; i++)
 	{
